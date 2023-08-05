@@ -30,8 +30,8 @@ var (
 var (
 	// You can overwrite defaults at compile time, eg:
 	// go build -ldflags "-X github.com/omniscale/go-mapnik/v2.fontPath $(mapnik-config -fonts)"
-	fontPath   = "/usr/local/lib/mapnik/fonts"
-	pluginPath = "/usr/local/lib/mapnik/input"
+	fontPath   = "/usr/share/fonts"
+	pluginPath = "/usr/lib/mapnik/3.0/input"
 )
 
 func init() {
